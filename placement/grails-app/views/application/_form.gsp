@@ -26,11 +26,11 @@
 	<g:textField name="student" value="${applicationInstance?.student}"/>
 </div>
 
-<div class="fieldcontain ${hasErrors(bean: applicationInstance, field: 'timestmap', 'error')} ">
-	<label for="timestmap">
-		<g:message code="application.timestmap.label" default="Timestmap" />
+<div class="fieldcontain ${hasErrors(bean: applicationInstance, field: 'timestamp', 'error')} ">
+	<label for="timestamp">
+		<g:message code="application.timestamp.label" default="Timestmap" />
 		
 	</label>
-	<g:textField name="timestmap" value="${applicationInstance?.timestmap}"/>
+	<g:textField name="timestamp" value="${applicationInstance?.timestamp}"/>
 </div>
 

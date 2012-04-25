@@ -50,11 +50,11 @@
 				</li>
 				</g:if>
 			
-				<g:if test="${applicationInstance?.timestmap}">
+				<g:if test="${applicationInstance?.timestamp}">
 				<li class="fieldcontain">
-					<span id="timestmap-label" class="property-label"><g:message code="application.timestmap.label" default="Timestmap" /></span>
+					<span id="timestamp-label" class="property-label"><g:message code="application.timestamp.label" default="Timestmap" /></span>
 					
-						<span class="property-value" aria-labelledby="timestmap-label"><g:fieldValue bean="${applicationInstance}" field="timestmap"/></span>
+						<span class="property-value" aria-labelledby="timestamp-label"><g:fieldValue bean="${applicationInstance}" field="timestamp"/></span>
 					
 				</li>
 				</g:if>

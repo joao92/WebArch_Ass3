@@ -30,7 +30,7 @@
 					
 						<g:sortableColumn property="student" title="${message(code: 'application.student.label', default: 'Student')}" />
 					
-						<g:sortableColumn property="timestmap" title="${message(code: 'application.timestmap.label', default: 'Timestmap')}" />
+						<g:sortableColumn property="timestamp" title="${message(code: 'application.timestamp.label', default: 'Timestmap')}" />
 					
 					</tr>
 				</thead>
@@ -44,7 +44,7 @@
 					
 						<td>${fieldValue(bean: applicationInstance, field: "student")}</td>
 					
-						<td>${fieldValue(bean: applicationInstance, field: "timestmap")}</td>
+						<td>${fieldValue(bean: applicationInstance, field: "timestamp")}</td>
 					
 					</tr>
 				</g:each>
