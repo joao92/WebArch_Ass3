@@ -15,6 +15,9 @@ class PlacementOpportunityController {
  						redirect(action: "list")
                                         }
     }
+    def listApplicants{
+
+    }
 
     def list() {
         params.max = Math.min(params.max ? params.int('max') : 10, 100)
