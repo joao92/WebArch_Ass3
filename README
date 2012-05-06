@@ -1,0 +1,13 @@
+I will be going through on how to clone my project from GIT hub to your VMware image. 
+For starters, open up your web browser and type this (or copy and paste) URL 
+into the address bar ‘https://github.com/joao92/WebArch_Ass3’.
+
+Leave this page open and open yourself a terminal that’s located on your Linux desktop.
+Now that you have terminal open, type in ‘git clone git@github.com:joao92/WebArch_Ass3.git’. 
+The project should now be downloading. After its finished downloading, 
+type ‘ls’ into terminal so you can see if the project folder that you have just cloned exists. 
+Change the directory by typing ‘cd WebArch_Ass3’. 
+The only file that’s in this folder is a ‘README’ file; to get to the grails app we need to change branches. 
+We do this by typing ‘git checkout develope’ into terminal (yes I spelt it wrong), 
+now type ‘ls’ to see if a placement file is in there, change directory by typing ‘cd placement’ 
+and now you should be in the grails app folder. Simply type, ‘grails run-app’ to run the application. 
