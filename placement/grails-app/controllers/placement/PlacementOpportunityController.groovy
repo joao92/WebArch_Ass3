@@ -9,6 +9,12 @@ class PlacementOpportunityController {
     def index() {
         redirect(action: "list", params: params)
     }
+    def listOpenPlacements(){
+        def statusCheck = placementOpportunity.status.label  
+             if (statusCheck == "OPEN") {
+ 						redirect(action: "list")
+                                        }
+    }
 
     def list() {
         params.max = Math.min(params.max ? params.int('max') : 10, 100)

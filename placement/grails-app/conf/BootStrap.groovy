@@ -15,7 +15,7 @@ class BootStrap {
 	def application1 = new Application(student:'Joao', placement:'Applied', status:'Invited for interview', 			   timestamp:'14:56').save(); 
 	def application2 = new Application(student:'Timmy', placement:'Applied', status:'Rejected', timestamp:'3:45').save(); 
 
-	def placementOpportunity1 = new PlacementOpportunity(jobTitle:'IT Assistant', companyName:'Lutterworth College', 				            applications:'3', status:'Interview needed').save();
+	def placementOpportunity1 = new PlacementOpportunity(jobTitle:'IT Assistant', companyName:'Lutterworth College', 				            applications:'3', status:'OPEN').save();
 	def placementOpportunity2 = new PlacementOpportunity(jobTitle:'Newtwork Assistant', companyName:'Apple inc.', 					    applications:'2', status:'Rejected').save();
     }
     def destroy = {
