@@ -15,8 +15,8 @@ class PlacementOpportunityController {
  						redirect(action: "list")
                                         }
     }
-    def listApplicants{
-
+    def listApplicants(){
+		return PlacementOpportunity(params)
     }
 
     def list() {
